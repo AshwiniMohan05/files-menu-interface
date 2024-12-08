@@ -1,0 +1,202 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .sidebar {
+    width: 300px;
+    padding: 20px;
+    background-color: #2e3b4e;
+    color: white;
+  }
+  
+  .course-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .lesson-list {
+    margin-top: 20px;
+  }
+  
+  .lesson-item {
+    margin-bottom: 20px;
+    background-color: #3b4a62;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .plus-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .file-list {
+    margin-top: 10px;
+  }
+  
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .file-input input {
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .popup-menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #2e3b4e;
+    color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    left: 24%;
+    margin-top: 10px;
+  }
+  
+  .popup-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .popup-item:hover {
+    background-color: #007bff;
+  }
+  
+  .file-actions {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .dots-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .file-actions-menu {
+    position: absolute;
+    top: 20px;
+    /* right: 0; */
+    background-color: #2e3b4e;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  .menu-item {
+    padding: 10px 25px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-item:hover {
+    background-color: #007bff;
+  }
+  
+  .menu-item .icon {
+    margin-right: 10px;
+  }
+
+  
+  .menu-item .delete-icon .delete {
+    color: red; 
+  }
+  .menu-item .delete{
+    color: red;
+  }
+  
+  .menu-item .delete-icon {
+    color: red;
+  }
+  
+  .menu-item .delete-text {
+    color: red; 
+  }
+  
+  .lesson-input {
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .add-lesson button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 17px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 300px;
+    font-weight: bold;
+}
+
+.add-lesson button:hover {
+  background-color: #0056b3;
+}
+  
+  .lesson-item input {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .lesson-item {
+    margin-bottom: 15px;
+    background-color: #3b4a62;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .lesson-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .plus-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .file-list {
+    margin-top: 10px;
+  }
+  .notification {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
