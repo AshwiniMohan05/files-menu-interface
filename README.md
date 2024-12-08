@@ -12,7 +12,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ## Features Implemented
 
@@ -37,8 +36,11 @@ You may also see any lint errors in the console.
 ## Future Enhancements
 
 Due to time constraints, some functionalities shown in the reference screenshots are not fully implemented. With more time, I would:
+
 • Split the code into separate components for better readability and maintainability.
+
 • Implement additional features from the screenshots, such as reordering files or lessons.
+
 • Add animations and improve overall user experience.
 
 Feel free to clone and run the project using the above commands! 🎉
